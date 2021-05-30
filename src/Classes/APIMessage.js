@@ -1,6 +1,5 @@
 const { APIMessage } = require("discord.js");
 const Util = require('../Util');
-const MessageButton = require('./MessageButton');
 
 class sendAPICallback extends APIMessage {
     resolveData() {
